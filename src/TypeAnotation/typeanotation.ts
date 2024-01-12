@@ -23,3 +23,7 @@ const sum = (num1: number, num2: number, num3?: number): number => {
   let chekNum3 = num3 === undefined || null ? 0 : num3;
   return num1 + num2 + chekNum3;
 };
+
+//////////////////////////////////////////////////////////////////
+console.log(sum(20, 90, -10));
+console.log(sum(10, 90));
