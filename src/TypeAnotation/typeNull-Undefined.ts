@@ -14,7 +14,7 @@ export function creatPerson(
   };
 }
 
-export const squareOf = (x: any) => {
+export const squareOf = (x: any): number | null => {
   return typeof x === "number" ? x * x : null;
 };
 
