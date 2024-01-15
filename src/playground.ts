@@ -85,5 +85,5 @@ const howManyPass = (
   return allPasswords;
 };
 
-const allPasswords = howManyPass(10, 15);
-allPasswords.forEach(value => console.log(value));
+const allPasswords = howManyPass(10, 18);
+allPasswords.forEach((value) => console.log(value));
