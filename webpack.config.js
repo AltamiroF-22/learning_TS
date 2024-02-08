@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
   mode: "development",
-  entry: "./src/TypeAnotation/webpack/index.ts",
+  entry: "./src/TypeAnotation/exercicio/index.ts",
   devtool: "inline-source-map",
   module: {
     rules: [
