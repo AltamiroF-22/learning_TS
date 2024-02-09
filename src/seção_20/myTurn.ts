@@ -27,10 +27,12 @@ const SchoolClass1 = new SchoolClass("classroom 1");
 const SchoolClass2 = new SchoolClass("classroom 5");
 const SchoolClass3 = new SchoolClass("classroom 8");
 const SchoolClass4 = new SchoolClass("classroom 17");
+const SchoolClass5 = new SchoolClass("classroom 22");
 
 person1.addSchoolCalss(SchoolClass1);
 person1.addSchoolCalss(SchoolClass2);
 person1.addSchoolCalss(SchoolClass3);
 person1.addSchoolCalss(SchoolClass4);
+person1.addSchoolCalss(SchoolClass5);
 
 person1.showClasses();
