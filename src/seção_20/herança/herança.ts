@@ -59,4 +59,4 @@ const client = new Client("altamiro", "júnior", 21, "123.456.789-00");
 // console.log(student.getFullName());
 // console.log(client.getFullName());
 
-console.log(student.getClass());
+console.table(student);
